@@ -1,8 +1,8 @@
 # Medical-Appointments-EDA
 Practice Exploratory Data analysis of medical appointments and the rate and relationship to NoShow 
 ## Insights 
-From this dataset, women booked the most appointments, over 50% more than men.
-With age distribution wider than men, which includes some outliers.
+- From this dataset, women booked the most appointments, over 50% more than men.
+- With age distribution wider than men, which includes some outliers.
 79.8% of patients actually showed up to their appointment
 The data showed more women making it to their medical appointments; this might be because more women booked appointments
 Surprisingly, approximately 68% of patients who attended appointments did not receive SMS reminders.
