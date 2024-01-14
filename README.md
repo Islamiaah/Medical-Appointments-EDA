@@ -3,31 +3,20 @@ Practice Exploratory Data analysis of medical appointments and the rate and rela
 
 ## Data Dictionary
 
-PatientId - Identification of a patient
-AppointmentID - Identification of each appointment
-Gender - Male or Female . Female is the greater proportion, woman takes way more care of they health in comparison to man.
-DataMarcacaoConsulta
-The day of the actuall appointment, when they have to visit the doctor.
-05 - DataAgendamento
-The day someone called or registered the appointment, this is before appointment of course.
-06 - Age
-How old is the patient.
-07 - Neighbourhood
-Where the appointment takes place.
-08 - Scholarship
-True of False . Observation, this is a broad topic, consider reading this article https://en.wikipedia.org/wiki/Bolsa_Fam%C3%ADlia
-09 - Hipertension
-True or False
-10 - Diabetes
-True or False
-Alcoholism
-True or False
-Handcap
-True or False
-SMS_received
-1 or more messages sent to the patient.
-No-show
-True or False.
+- PatientId - Identification of a patient
+- AppointmentID - Identification of each appointment
+- Gender - Male or Female . Female is the greater proportion, woman takes way more care of they health in comparison to man.
+- AppointmentDay - The day of the actuall appointment, when they have to visit the doctor.
+- ScheduledDay - The day someone called or registered the appointment, this is before appointment of course.
+- Age - How old is the patient.
+- Neighbourhood - Where the appointment takes place.
+- HealthCoverage -  if they are some health care coverage
+- Hypertension - patient is hypertensive or not
+- Diabetes - patient is diabetic or not
+- Alcoholism - Is the patient suffering from alcholism
+- Handicap - Is patient handicap or not 
+- SMS_received - 1 or more messages sent to the patient reminding them of their appointment
+- No-show - patients that didnt show up for their appointment 
 
 ## Insights 
 - From this dataset, women booked the most appointments, over 50% more than men.
